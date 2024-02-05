@@ -1,0 +1,90 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.tit{
+	-fx-font-size: 40px;
+	-fx-font-family: 'Courier New', monospace;
+   	-fx-font-weight: bold;
+	-fx-underline: true;
+	-fx-stroke-width: 0.4px;
+	-fx-stroke: #F79489;
+}
+
+.tex{
+	-fx-font-size: 35px;
+    -fx-font-weight: bold;
+    -fx-fill: black; /* Text color */
+    -fx-stroke: #F79489; /* Stroke color */
+    -fx-stroke-width: 0.5px; /* Stroke width */
+}
+
+.com{
+	-fx-border-color:#F79489;
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+	-fx-font-size: 20px;
+	-fx-background-color: #F9F1F0;
+}
+
+.butt{
+	-fx-border-color:balck;
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+	-fx-background-color: #F79489;
+	-fx-font-size: 35px;
+}
+
+.lab{
+	-fx-background-color: transparent;
+	-fx-border-color:#F79489;
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+	-fx-font-size: 20px;
+	-fx-font-family: 'Courier New', monospace;
+   	-fx-font-weight: bold;
+	-fx-stroke-width: 0.4px;
+	-fx-stroke: #F79489;
+	-fx-alignment: center;
+}
+
+.tex2{
+	-fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-fill: black; /* Text color */
+    -fx-stroke: #F79489; /* Stroke color */
+    -fx-stroke-width: 0.5px; /* Stroke width */
+}
+
+.butt:hover{
+	-fx-border-color:#F79489;
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+	-fx-background-color: #F9F1F0;	
+}
+
+.table-view {
+    -fx-background-color: transparent; /* color of table border */
+   
+}
+
+.table-view .column-header {
+    -fx-background-color: #f7d2cd; /* color first row (name of columns) */
+    -fx-text-fill: white;
+    -fx-font-size: 18.0px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent; /* color of odd row */
+    -fx-text-fill: #333333;
+    -fx-font-size: 14.0px;
+    -fx-border-color:black;
+	-fx-background-radius:10px;
+	-fx-border-radius:10px;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f7d2cd; /* color of even row */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #F79489; /* color of row when selected */
+    -fx-text-fill: #333333;
+}
